@@ -2,14 +2,6 @@
   "name": "node-lab1",
   "version": "1.0.0",
   "description": "node lab 1",
-  "homepage": "https://github.com/YongHsiangHsieh/wad2-api-labs#readme",
-  "bugs": {
-    "url": "https://github.com/YongHsiangHsieh/wad2-api-labs/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YongHsiangHsieh/wad2-api-labs.git"
-  },
   "license": "ISC",
   "author": "YongHsiangHsieh",
   "type": "commonjs",
