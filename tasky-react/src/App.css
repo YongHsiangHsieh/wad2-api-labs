@@ -1,0 +1,192 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: #f5f6fb;
+  color: #2c3e50;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: #4b5563;
+  color: white;
+  padding: 16px 28px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.card-list {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  color: inherit;
+  width: 220px;
+  min-height: 200px;
+  padding: 20px 22px;
+  border-radius: 16px;
+  box-shadow: 0 16px 24px rgba(15, 23, 42, 0.08);
+  text-align: left;
+}
+
+.card-done {
+  background: #e2e8f0;
+  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.06);
+  color: #475569;
+}
+
+.card-priority-low {
+  border-top: 6px solid #27ae60;
+}
+
+.card-priority-medium {
+  border-top: 6px solid #f39c12;
+}
+
+.card-priority-high {
+  border-top: 6px solid #d64541;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.15em;
+  margin: 0;
+}
+
+.card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-body {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.deadline-label {
+  margin: 0;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.task-description {
+  margin-top: 10px;
+  font-size: 0.95em;
+  line-height: 1.4;
+  color: #63748b;
+}
+
+.card-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.priority-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.priority-high {
+  background: #d64541;
+}
+
+.priority-medium {
+  background: #f39c12;
+}
+
+.priority-low {
+  background: #27ae60;
+}
+
+.doneButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #16a34a;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.doneButton:hover {
+  background: #15803d;
+}
+
+.deleteButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #dc2626;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.deleteButton:hover {
+  background: #b91c1c;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
